@@ -1,0 +1,58 @@
+<html>
+<title>
+Yoga Pose
+</title>
+<style>
+body {
+	 background: linear-gradient(45deg, #fc466b, #3f5efb);
+	 height: 100%;
+	 font-family: 'Montserrat', sans-serif;
+}
+ .container {
+	 position: absolute;
+	 transform: translate(-50%, -50%);
+	 top: 50%;
+	 left: 50%;
+}
+ .container div {
+	 color: white;
+	 background: rgba(255, 255, 255, 0.3);
+	 border: 1px solid rgba(255, 255, 255, 0.3);
+	 backdrop-filter: blur(10px);
+	 box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+	 text-align: center;
+	 transition: all 0.2s ease-in-out;
+}
+ .container .main {
+	 position: relative;
+	 border-radius: 20px;
+	 padding: 3em;
+	 height: 20px;
+	 z-index: 2;
+}
+ .container .second {
+	 position: absolute;
+	 top: -2em;
+	 right: -2em;
+	 padding: 2em;
+	 border-radius: 10px;
+	 z-index: 3;
+}
+ .container .third {
+	 position: absolute;
+	 bottom: -2em;
+	 left: -2em;
+	 padding: 2em;
+	 border-radius: 10px;
+	 z-index: 1;
+}
+ 
+</style>
+<body>
+<div class="container">
+  <div class="main"><h2> {{yogaPose}}</h2></div>
+  <div class="second"></div>
+  <div class="third"></div>
+</div>
+</body>
+</html>

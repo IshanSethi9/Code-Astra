@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gaming Arena</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- bootstrap-css -->
+<link href="{{ url_for('static',filename='css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" /> 
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href= "{{ url_for('static',filename='css/font-awesome.css') }}" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href= "{{ url_for('static',filename='css/chocolat.css') }}" type="text/css" media="all"> 
+<!-- //portfolio -->	
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="{{ url_for('static',filename='js/jquery-1.11.1.min.js') }}"></script>  
+<script src="{{ url_for('static',filename='js/bootstrap.js') }}"></script> 
+
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">GAMING <span>STORE</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Lorem ipsum</h3>
+												<p>In volutpat metus quis velit malesuada</p>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Nam semper</h3>
+												<p>Nam imperdiet tellus nec enim tempus</p>
+												
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="{{ url_for('static',filename='js/responsiveslides.min.js') }}"></script> 
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- Gaming Reduces Stress</h5>
+						<p>Video games are engaging and enjoyable, which reduces stress. Gaming results in dopamine secretion, which makes you feel good. Video games present a challenge and reward you for overcoming it, which leads to feelings of competence. Gaming can create a flow state, which is similar to meditation.</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- //about --> 
+
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Games</h3> 
+<br>
+			</div>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="http://127.0.0.1:5000/gamePlayer1" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="https://cdn.akamai.steamstatic.com/steam/apps/389730/capsule_616x353.jpg?t=1638999755" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Player <span>vs</span> Computer</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="http://127.0.0.1:5000/gamePlayer2" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="https://cdn.akamai.steamstatic.com/steam/apps/389730/capsule_616x353.jpg?t=1638999755" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Player <span>vs</span> Player</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="#" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="https://cdn.akamai.steamstatic.com/steam/apps/976310/header.jpg?t=1634068925" width = "460" height="217"  alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Upcoming</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>				
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+	
+	<script src="js/jarallax.js"></script>
+	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
+</html>
