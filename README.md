@@ -103,6 +103,7 @@ python game_zone/game_runner.py
 4. Deploy as a full-fledged wellness web app
 
 🤝 Contributing
+
 Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
 
 📄 License
