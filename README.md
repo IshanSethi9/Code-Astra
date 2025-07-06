@@ -43,6 +43,7 @@
 ---
 
 ## 📁 Folder Structure
+```
 Code-Astra/
 ├── emotion_detection/ # Audio & video emotion recognition models
 ├── food_recommendation/ # TF-IDF based food suggestion logic
@@ -51,7 +52,7 @@ Code-Astra/
 ├── game_zone/ # Action recognition and game logic
 ├── requirements.txt # Python dependencies
 └── README.md
-
+```s
 
 ---
 
