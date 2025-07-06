@@ -52,7 +52,7 @@ Code-Astra/
 ├── game_zone/ # Action recognition and game logic
 ├── requirements.txt # Python dependencies
 └── README.md
-```s
+```
 
 ---
 
