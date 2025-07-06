@@ -107,6 +107,7 @@ python game_zone/game_runner.py
 Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
 
 📄 License
+
 This project is licensed under the MIT License.
 
 ## 🔗 Connect with Me
