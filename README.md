@@ -90,20 +90,17 @@ python game_zone/game_runner.py
 ```
 
 📈 Impact
-Helps users recognize and manage emotional states effectively
+1. Helps users recognize and manage emotional states effectively
 
-Offers a structured, personalized system to improve mood and reduce stress
+2. Offers a structured, personalized system to improve mood and reduce stress
 
-Shows potential to accelerate recovery and boost emotional well-being by up to 30%
+3. Shows potential to accelerate recovery and boost emotional well-being by up to 30%
 
 🎯 Future Enhancements
-Build a unified dashboard to access all features
-
-Use transformer models for more accurate emotion and action detection
-
-Integrate user history to make smarter recommendations
-
-Deploy as a full-fledged wellness web app
+1. Build a unified dashboard to access all features
+2. Use transformer models for more accurate emotion and action detection
+3. Integrate user history to make smarter recommendations
+4. Deploy as a full-fledged wellness web app
 
 🤝 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
